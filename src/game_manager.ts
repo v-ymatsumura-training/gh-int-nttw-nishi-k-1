@@ -17,6 +17,7 @@ export class GameManager {
   static state: GameState
   /** Start Tiles Count */
   static startTiles: number = 4
+ main
 
   constructor(size: number) {
     GameManager.size = size
